@@ -43,6 +43,10 @@ body{
   
   background-color: white;
 }
+#navbar{
+  padding:20px;
+  margin:0px;
+}
 #navbar ul{
   display:flex;
   flex-direction: row;
@@ -51,9 +55,12 @@ body{
   background-color:white;
   /* justify-content: baseline; */
   top:0;
-  /* justify-content:flex-end; */
+  
   align-items: center;
   font-size: 13px;
+  margin: 0px;
+  padding: 6px 4px 0px 32px;
+  justify-content:flex-end; 
 
 }
 
@@ -135,13 +142,61 @@ li{
 
 #sign-in a{
   color:white;
+  background-color: #1a73e8;
+  padding: 0px 0px;
+
+}
+#sign-in:hover{
+  background-color:#3583e9;
+  
 }
 
-#buttons{
+#sign-in a:hover{
+  background-color:#3583e9;
+  text-decoration:none;
+}
+
+/* #buttons{
   font-size: 14px;
-}
+  background-color: #f8f9fa;
+  margin:11px 4px;
+  padding: 4px 16px;
+} */
+.button{
+  font-size: 14px;
+  background-color: #f8f9fa;
+  margin:11px 4px;
+  padding: 4px 16px;
+  border:none;
+  cursor: pointer;
 
+}
 #text{
   font-size: 13px;
+  
 
+}
+#search-box{
+  border: 1px solid #9aa0a6;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 2.5px 5px 2.5px 5px;
+  width:582px;
+  height: 44px;
+
+  }
+}
+.search-box{
+  border:hidden;
+  border-width: 0px;
+  outline: none;
+  font-size: 24px;
+  width:530px;
+  height:30px;
+}
+
+span{
+  color:#9aa0a6;
 }
