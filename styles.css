@@ -171,6 +171,12 @@ li{
   cursor: pointer;
 
 }
+
+.button:hover{
+  border: 1px solid #9aa0a6;
+  background-color: #f2f2f2;
+  border-radius: 3px;
+}
 #text{
   font-size: 13px;
   
@@ -199,4 +205,14 @@ li{
 
 span{
   color:#9aa0a6;
+}
+
+input[type="text"] {
+  width: 530px;
+  border:hidden;
+  border-width: 0px;
+  outline: none;
+  font-size: 24px;
+  width:530px;
+  height:30px;
 }
