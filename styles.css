@@ -34,3 +34,83 @@
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
+body{
+  height:100%;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  
+  background-color: white;
+}
+#navbar ul{
+  display:flex;
+  flex-direction: row;
+  position:fixed;
+  width: 100%;
+  background-color:white;
+  justify-content: baseline;
+  top:0;
+  justify-content:flex-end;
+
+}
+
+main{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-color: white;
+  height:100vh;
+}
+
+#footer{
+  display:flex;
+  flex-direction: row;
+  position:fixed;
+  width: 100%;
+  
+  justify-content: baseline;
+  bottom:0;
+  justify-content:space-between;
+  background-color:#f2f2f2;
+  color:#70757a;
+}
+
+#footer a{
+  text-decoration:none;
+  color:rgba(0,0,0,0.87);
+}
+#footer a:hover{
+  text-decoration:underline;
+  
+}
+
+#footer1{
+  display:flex;
+  flex-direction:row;
+  align-items:flex-start;
+  
+
+}
+
+#footer2{
+  display:flex;
+  flex-direction:row;
+  align-items:flex-end;
+}
+
+ul {
+  text-decoration:none;
+  list-style-type: none;
+}
+
+#navbar a{
+  text-decoration:none;
+  color:rgba(0,0,0,0.87);
+}
+#navbar a:hover{
+  text-decoration: underline;
+}
+
+
+
